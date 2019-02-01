@@ -1,0 +1,57 @@
+body{
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+	color: #303030;
+}
+
+p{
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+i{
+	font-style: italic;
+}
+
+#mainheader{
+	padding-top: 200px;
+}
+
+#mainheader h1{
+	font-weight: 700;
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	letter-spacing: -2px;
+}
+
+#mainheader p{
+	/*color: grey;*/
+	color:dodgerblue;
+	font-weight: 100;
+	font-size: 1.2em;
+	font-weight: 100;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+b{
+	font-weight: 600;
+	font-size: 2em;
+}
+
+h2{
+	margin-bottom: 15px;
+}
+
+.section1{
+	max-width: 800px;
+	margin:auto;
+	text-align: center;
+	line-height: 1.8;
+	margin-bottom: 90px;
+}
+
+.bold{
+	font-weight:700;
+	color:dodgerblue;
+}

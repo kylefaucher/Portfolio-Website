@@ -1,0 +1,103 @@
+body{
+	font-family: futura;
+	text-align: center;
+	font-size: 5em;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.containter{
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+		"b1 b2 b3 b4 b17"
+		"b5 b6 b7 b8 b18"
+		"b9 b10 b11 b12 b19"
+		"b13 b14 b15 b16 b20"
+}
+
+.box{
+	font-family: Fontdiner Swanky, sans-serif;
+	padding: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#message{
+	background-color: rgba(255, 255, 255, 0.85);
+	color: black;
+	position: fixed;
+	top: 0;
+	display: none;
+	font-size: .7em;
+	padding: 10px;
+	width: 100%;
+	justify-content: space-around;
+}
+
+#box1{
+	grid-area: b1;
+}
+
+#box2{
+	grid-area: b2;
+}
+
+#box3{
+	grid-area: b3;
+}
+#box4{
+	grid-area: b4;
+}
+#box5{
+	grid-area: b5;
+}
+#box6{
+	grid-area: b6;
+}
+#box7{
+	grid-area: b7;
+}
+#box8{
+	grid-area: b8;
+}
+#box9{
+	grid-area: b9;
+}
+#box10{
+	grid-area: b10;
+}
+#box11{
+	grid-area: b11;
+}
+#box12{
+	grid-area: b12;
+}
+#box13{
+	grid-area: b13;
+}
+#box14{
+	grid-area: b14;
+}
+#box15{
+	grid-area: b15;
+}
+#box16{
+	grid-area: b16;
+}
+#box17{
+	grid-area: b17;
+}
+#box18{
+	grid-area: b18;
+}
+#box19{
+	grid-area: b19;
+}
+#box20{
+	grid-area: b20;
+}

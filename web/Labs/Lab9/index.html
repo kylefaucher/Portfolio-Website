@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+		Lab 9
+	</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+	<div id = "toptitle">
+		Contact Me
+	</div>
+
+	<form>
+
+		<label for="name"> Enter Your Name </label>
+		<br>
+		<input type="text" id = "name"> 
+		<br>
+		<br>
+
+		<label for="title"> Select Your Title </label>
+		<br>
+		<select id="title">
+			<option value="selecttitle">Select a title</option>
+			<option value="Ms. ">Ms.</option>
+			<option value="Mr. ">Mr.</option>
+			<option value="Mrs. ">Mrs.</option>
+			<option value="Dr. ">Dr.</option>
+		</select>
+
+		<p>
+			Is this Message Urgent?
+		</p>
+		<div id = "ynquestion">
+			<input type="radio" name="urgent" id="urgentY">
+			<label for="urgentY"> Yes </label>
+			<br>
+			<input type="radio" name="urgent" id="urgentN">
+			<label for="urgentN"> No </label>
+		</div>
+		<br>
+
+		<label for="message"> Enter Your Message </label>
+		<br>
+		<textarea id = "message" rows="20" cols="50"></textarea>
+		<br>
+		<button type="button" id="send">Send</button>
+
+	</form>
+
+	<p id="msgsent">
+		Message Sent!
+	</p>
+
+	<div id = "resultmessage">
+	</div>
+	
+	<script src="javascript/lab9.js"></script>
+
+</body>
+
+</html>

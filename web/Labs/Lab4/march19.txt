@@ -1,0 +1,66 @@
+Graphs
+
+	ADT - undirected, weighted
+	insertVertex()
+	insertEdge()
+	print()
+	search()
+
+ADT
+
+	private:
+
+		verticies
+
+	public:
+		init()
+		insertVertex(value)
+		insertEdge(startValue, endValue, weight)
+		deleteVertex(value)
+		deleteEdge(startValue, endValue)
+
+	struct vertex
+	{
+		string key;
+		vector<adjVertex> adj;
+	};
+
+	struct adjVertex
+	{
+		vertex *v;
+		int weight;
+	};
+
+	insertVertex(value)
+	{
+		bool found = false
+
+		loop (over entire vector of verticies)
+
+		...
+	}
+
+	printGraph()
+	{
+		loop (across all verticies)
+		-print each vertex key
+		-print key of each adj vertex
+		-print weight
+	}
+
+	search(value)
+	{
+
+		loop (across all verticies)
+
+			if (key matches value)
+				return vertex;
+
+			return NULL;
+
+	}
+
+
+
+
+

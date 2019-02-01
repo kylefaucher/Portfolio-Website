@@ -1,0 +1,52 @@
+body{
+
+	font-family: Futura;
+	font-style: italic;
+
+	/*background-image: url(../images/black.png);
+	*/background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%%;
+
+	color: red;
+
+}
+
+section{
+	border-color: red;
+	border-style: solid;
+	border-width: 20px;
+	align-items: center;
+
+}
+
+a:visited{
+	text-decoration: none;
+	color: mediumslateblue;
+}
+
+a:hover{
+	font-size : 150%;
+	color: gold;
+}
+
+#box2{
+	color: gold;
+	background-color: mediumslateblue;
+}
+
+.box{
+	font-size: 1200%;
+	background-color: gold;
+	width: 70%;
+	height:60%;
+
+}
+
+#box4 ,  #box6 {
+	padding: 20px;
+	margin: 60px;
+	padding-left: 60px
+}
+
+
